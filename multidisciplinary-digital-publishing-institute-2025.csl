@@ -3,9 +3,8 @@
   <info>
     <title>Multidisciplinary Digital Publishing Institute 2025</title>
     <title-short>MDPI</title-short>
-    <id>https://unrealliving.github.io/citation-styles/multidisciplinary-digital-publishing-institute-2025</id>
-    <link href="https://unrealliving.github.io/citation-styles/multidisciplinary-digital-publishing-institute-2025.csl" rel="self"/>
-    <link href="http://www.mdpi.com/authors/references" rel="documentation"/>
+    <id>https://raw.githubusercontent.com/unrealliving/citation-styles/main/multidisciplinary-digital-publishing-institute-2025.csl</id>
+    <link href="https://raw.githubusercontent.com/unrealliving/citation-styles/main/multidisciplinary-digital-publishing-institute-2025.csl" rel="self"/>
     <category citation-format="numeric"/>
     <category field="science"/>
     <updated>2025-06-02T00:00:00+00:00</updated>
