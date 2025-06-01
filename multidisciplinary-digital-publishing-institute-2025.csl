@@ -3,21 +3,14 @@
   <info>
     <title>Multidisciplinary Digital Publishing Institute 2025</title>
     <title-short>MDPI</title-short>
-    <id>http://www.zotero.org/styles/multidisciplinary-digital-publishing-institute-2025</id>
-    <link href="http://www.zotero.org/styles/multidisciplinary-digital-publishing-institute-2025" rel="self"/>
+    <id>https://unrealliving.github.io/citation-styles/multidisciplinary-digital-publishing-institute-2025</id>
+    <link href="https://unrealliving.github.io/citation-styles/multidisciplinary-digital-publishing-institute-2025.csl" rel="self"/>
     <link href="http://www.mdpi.com/authors/references" rel="documentation"/>
-    <author>
-      <name>Sebastian Karcher</name>
-    </author>
-    <contributor>
-      <name>Corrected by OpenAI for JMSE Compliance</name>
-    </contributor>
     <category citation-format="numeric"/>
     <category field="science"/>
-    <summary>Fixed version of MDPI CSL for JMSE with Surname + Initial format in references</summary>
-    <updated>2025-06-01T00:00:00+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <updated>2025-06-02T00:00:00+00:00</updated>
   </info>
+
   <locale xml:lang="en">
     <terms>
       <term name="available at">available online</term>
