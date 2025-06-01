@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="expanded" default-locale="en-US">
   <info>
-    <title>Multidisciplinary Digital Publishing Institute 2025</title>
+    <title>Multidisciplinary Digital Publishing Institute</title>
     <title-short>MDPI</title-short>
-    <id>https://raw.githubusercontent.com/unrealliving/citation-styles/main/multidisciplinary-digital-publishing-institute-2025.csl</id>
-    <link href="https://raw.githubusercontent.com/unrealliving/citation-styles/main/multidisciplinary-digital-publishing-institute-2025.csl" rel="self"/>
+    <id>http://www.zotero.org/styles/multidisciplinary-digital-publishing-institute</id>
+    <link href="http://www.zotero.org/styles/multidisciplinary-digital-publishing-institute" rel="self"/>
+    <link href="http://www.zotero.org/styles/american-chemical-society" rel="template"/>
+    <link href="http://www.mdpi.com/authors/references" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+    </author>
+    <contributor>
+      <name>Patrick O'Brien</name>
+    </contributor>
+    <contributor>
+      <name>Johan van der Molen Moris</name>
+    </contributor>
+    <contributor>
+      <name>Szilárd Enyedi</name>
+    </contributor>
     <category citation-format="numeric"/>
     <category field="science"/>
-    <updated>2025-06-02T00:00:00+00:00</updated>
+    <summary>Style for the MDPI Open access journals</summary>
+    <updated>2024-08-04T13:52:08+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-
   <locale xml:lang="en">
     <terms>
       <term name="available at">available online</term>
@@ -17,44 +32,38 @@
       <term name="presented at">presented at the</term>
     </terms>
   </locale>
-
   <macro name="editor">
     <names variable="editor">
-      <name delimiter-precedes-last="always" initialize-with="." name-as-sort-order="first"/>
+      <name delimiter-precedes-last="always" initialize-with="." name-as-sort-order="all"/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
   </macro>
-
   <macro name="author">
     <names variable="author">
-      <name name-as-sort-order="first" form="short" initialize-with="." delimiter="; " delimiter-precedes-last="always"/>
-      <et-al term="et al."/>
+      <name form="long" sort-separator=", " et-al-min="11" et-al-use-first="10" initialize-with="." name-as-sort-order="all" delimiter="; " delimiter-precedes-last="always"/>
+      <et-al term="et-al"/>
+      <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
   </macro>
-
   <macro name="publisher">
     <group delimiter=": ">
       <text variable="publisher"/>
       <text variable="publisher-place"/>
     </group>
   </macro>
-
   <macro name="volume">
     <group delimiter=" ">
       <text term="volume" form="short" text-case="capitalize-first"/>
       <text variable="volume"/>
     </group>
   </macro>
-
   <macro name="series">
     <text variable="collection-title"/>
   </macro>
-
   <macro name="pages">
     <label variable="page" form="short" suffix=" "/>
     <text variable="page"/>
   </macro>
-
   <macro name="book-container">
     <group delimiter=" ">
       <text variable="title" text-case="title" suffix="."/>
@@ -62,13 +71,11 @@
       <text variable="container-title" font-style="italic"/>
     </group>
   </macro>
-
   <macro name="issued">
     <date variable="issued" delimiter=" ">
       <date-part name="year"/>
     </date>
   </macro>
-
   <macro name="full-issued">
     <date variable="issued" delimiter=" ">
       <date-part name="month" form="long"/>
@@ -76,7 +83,6 @@
       <date-part name="year"/>
     </date>
   </macro>
-
   <macro name="edition">
     <choose>
       <if is-numeric="edition">
@@ -90,7 +96,6 @@
       </else>
     </choose>
   </macro>
-
   <macro name="access">
     <choose>
       <if type="book chapter" match="any">
@@ -101,7 +106,6 @@
       </else-if>
     </choose>
   </macro>
-
   <citation collapse="citation-number">
     <sort>
       <key variable="citation-number"/>
@@ -110,7 +114,6 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-
   <bibliography entry-spacing="0" second-field-align="flush">
     <layout suffix=".">
       <text variable="citation-number" suffix=". "/>
